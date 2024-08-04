@@ -11,7 +11,7 @@ function App() {
 
   };
   const searchLocation = (event) => {
-    let url = `http://localhost:5000/${query}`
+    let url = `https://weatherapi-7yj2.onrender.com/${query}`
     fetch(url)
     .then(async(response) => 
       {
